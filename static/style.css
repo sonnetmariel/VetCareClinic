@@ -1,0 +1,33 @@
+:root {
+  --primary: #3b7d8c;
+  --accent:  #ff9800;
+  --bg:      #ffffff;
+  --fg:      #262626;
+  --font:    'Inter', sans-serif;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  color: var(--primary);
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+
+a { color: var(--primary); }
+button, .stButton > button {
+  background: var(--primary);
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.4em 1em;
+  border: none;
+}
+
+.st-alert, .stMarkdown { font-size: 1rem; }

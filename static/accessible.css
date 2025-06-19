@@ -1,0 +1,25 @@
+html, body {
+  background: #000 !important;
+  color: #ffff00 !important;          /* жёлтый на чёрном — контраст > 15:1 */
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 20px !important;         /* не менее 18 pt */
+  line-height: 1.8 !important;
+}
+
+h1, h2, h3, h4 {
+  color: #00ffff !important;
+  font-weight: 700 !important;
+}
+
+a {
+  color: #ffff00 !important;
+  text-decoration: underline !important;
+}
+
+button, .stButton > button {
+  background: #000 !important;
+  color: #ffffff !important;
+  border: 3px solid #ffffff !important;
+  font-size: 22px !important;
+  border-radius: 0 !important;
+}
